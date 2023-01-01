@@ -1,6 +1,6 @@
-type MyType={
-    first: string,
-    second: number
-}
+type MyType = {
+  first: string;
+  second: number;
+};
 
-export { MyType }
+export { MyType };
