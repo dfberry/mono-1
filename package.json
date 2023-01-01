@@ -1,0 +1,19 @@
+{
+  "name": "first-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build --workspaces --if-present",
+    "clean": "npm run clean --workspaces --if-present"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/types",
+    "packages/functions"
+  ],
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
